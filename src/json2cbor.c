@@ -17,7 +17,7 @@ extern cn_cbor_context *context;
 #define CBOR_CONTEXT_PARAM_COMMA
 #endif
 
-const cn_cbor *ParseJsonString(char *jsonString, int offset, int length)
+cn_cbor *ParseJsonString(char *jsonString, int offset, int length)
 {
 	char ch;
 	int ib2;
